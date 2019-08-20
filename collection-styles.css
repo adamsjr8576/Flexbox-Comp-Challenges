@@ -1,0 +1,42 @@
+body {
+  background-color: #4db6ac;
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+.hanging-fruit-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-one-images{
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid blue; */
+}
+
+/* .larger-image {
+  border: 1px solid blue;
+} */
+
+.smaller-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* border: 1px solid blue; */
+}
+
+.large-image {
+
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.medium-image {
+  /* border: 1px solid blue; */
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+  margin: 30px;
+}
